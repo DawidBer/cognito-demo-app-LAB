@@ -69,7 +69,7 @@ export const handler: APIGatewayProxyHandlerV2 = async (event) => {
       },
       body: JSON.stringify({
         message: "Auth successfull",
-        token: token,
+        token: token
       }),
     };
   } catch (err) {
